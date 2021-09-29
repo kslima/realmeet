@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://realmeet-database.chqemsx31eje.us-east-2.rds.amazonaws.com:3306/realmeet?&serverTimezone=UTC&useSSL=false
+    username: admin
+    type: com.zaxxer.hikari.HikariDataSource
